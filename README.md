@@ -47,9 +47,7 @@ O **Food Donation System** é uma aplicação Spring Boot que facilita a conexã
 ✅ Documentação completa da API com Swagger/OpenAPI  
 ✅ Separação clara de responsabilidades (controllers, services, repositories)  
 ✅ Uso de DTOs para transferência de dados  
-✅ Agendamento de tarefas para notificações automáticas  
 ✅ Configuração de ambiente específica (dev/prod)  
-✅ Testes unitários e de integração  
 
 ## 🚀 Como Executar o Projeto
 
@@ -82,6 +80,8 @@ O **Food Donation System** é uma aplicação Spring Boot que facilita a conexã
     ```bash
     mvn spring-boot:run
     
+OU se utilizar IntelliJ, basta executar o projeto.
+
 4. Acesse a documentação da API:
     ```bash
     http://localhost:8080/swagger-ui.html
