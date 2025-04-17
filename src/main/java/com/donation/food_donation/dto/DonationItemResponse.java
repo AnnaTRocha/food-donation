@@ -11,6 +11,7 @@ public class DonationItemResponse {
     private String description;
     private boolean fulfilled;
     private LocalDateTime createdAt;
+    private Long requesterId;
     private String requesterName;
     private String requesterOrganization;
 }

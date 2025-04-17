@@ -9,11 +9,16 @@ import java.time.LocalDateTime;
 @Data
 public class DonationResponse {
     private Long id;
-    private DonationItemResponse item;
-    private UserResponse donor;
-    private UserResponse recipient;
+    private Long itemId;
+    private String itemTitle;
+    private String itemDescription;
+    private Long donorId;
+    private String donorName;
+    private Long recipientId;
+    private String recipientName;
     private LocalDateTime donationDate;
     private LocalDateTime scheduledPickupDate;
     private String pickupAddress;
     private Donation.DonationStatus status;
+    private String requesterOrganization;
 }
